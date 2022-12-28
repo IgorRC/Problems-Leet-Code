@@ -1,6 +1,12 @@
 package Concatenation_of_array;
 
 public class SolutionConcanetation {
+    /**
+     * @author IgorRC
+     * 
+     * @param nums 
+     * @return
+     */
     public int[] getConcatenation(int[] nums) {
         int concatenation [] = new int[nums.length*2];
         for(int i = 0 , y = 0; i < nums.length*2 ; i++){
