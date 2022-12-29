@@ -2,6 +2,9 @@ package Reverse_Integer;
 
 public class SolutionReverse {
     /**
+     * 
+     * numero por validar : 1534236469
+     * 
      * @author Igor Ramos Cruzado
      * @param x
      * @return
