@@ -88,3 +88,6 @@ fabric.properties
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Bloqueando el main para bruebas
+src/Main.java
