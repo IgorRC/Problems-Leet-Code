@@ -8,15 +8,13 @@ public class SolutionMaximunNumber {
             for (int j = 0 ; j < sentences[i].length() ; j++){
                 if(sentences[i].charAt(j) == ' '){
                     acumuladorEspacion++;
-                }
-                
+                }                
             }
             if(acumuladorEspacion > numeroMaximoEspacios){
                 numeroMaximoEspacios = acumuladorEspacion;
             }
             acumuladorEspacion = 0;
         }
-        
         return numeroMaximoEspacios+1;   
     }
 }
